@@ -1,0 +1,226 @@
+<!doctype html>
+<!-- Resume source. Export to the site PDF: node resume-source/export.mjs -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Asiful Haque Ratul – Resume</title>
+<style>
+  @page { size: A4; margin: 0; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  :root { --side: #114571; --band: #003d73; --head: #1f4e79; --date: #002e58; --rule: #bfbfbf; --ink: #1a1a1a; }
+  body { font-family: Calibri, Carlito, "Segoe UI", Arial, sans-serif; color: var(--ink); font-size: 9.6pt; line-height: 1.28; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  a { color: inherit; text-decoration: none; }
+  .page { width: 210mm; height: 297mm; display: grid; grid-template-columns: 66mm 1fr; overflow: hidden; break-after: page; }
+  .page:last-child { break-after: auto; }
+
+  /* sidebar */
+  .side { background: var(--side); color: #fff; padding-bottom: 8mm; }
+  .photo { display: block; width: 46mm; height: 50mm; object-fit: cover; object-position: 50% 15%; margin: 6mm auto 5mm; border: 2px solid rgba(255,255,255,.85); background: #e9eef3; }
+  .side h2 { background: var(--band); font-size: 12pt; font-weight: 700; padding: 1.6mm 6mm; margin: 4mm 0 2.5mm; }
+  .side .blk { padding: 0 5mm 0 6mm; }
+  .side h3 { font-size: 9.6pt; font-weight: 700; margin-top: 2mm; }
+  .side p, .side li { font-size: 8.8pt; }
+  .side .role { font-style: italic; opacity: .92; }
+  .side ul { padding-left: 4mm; margin-top: .8mm; }
+  .side li { margin-bottom: .6mm; }
+  .contact p { margin-bottom: 1.6mm; word-break: break-word; }
+  .contact b { display: block; font-size: 8pt; text-transform: uppercase; letter-spacing: .04em; opacity: .75; font-weight: 700; }
+
+  /* main column */
+  .main { padding: 8mm 9mm 8mm 8mm; }
+  header { text-align: center; margin-bottom: 3mm; }
+  header h1 { font-size: 24pt; font-weight: 700; color: #000; letter-spacing: -.01em; line-height: 1.1; }
+  header .links { font-size: 11pt; font-weight: 700; margin-top: 1mm; color: var(--head); }
+  .main h2 { color: var(--head); font-size: 14pt; font-weight: 700; border-top: 1.2px solid var(--rule); border-bottom: 1.2px solid var(--rule); padding: .8mm 2mm; margin: 4mm 0 2.5mm; }
+  .main h2:first-of-type { margin-top: 2mm; }
+  .item { margin: 0 2mm 2.6mm; }
+  .item .row { display: flex; justify-content: space-between; gap: 4mm; align-items: baseline; }
+  .item h3 { font-size: 10pt; font-weight: 700; color: var(--head); }
+  .item .when { font-weight: 700; color: var(--date); white-space: nowrap; font-size: 9.4pt; }
+  .item .sub { font-weight: 700; color: var(--date); font-size: 8.8pt; }
+  .main ul { padding-left: 4.5mm; margin-top: .8mm; }
+  .main li { margin-bottom: .5mm; }
+  ul.sq { list-style: square; }
+  .main p.sum { margin-top: .4mm; }
+  .group { color: var(--date); margin: 3mm 2mm 1.4mm; text-transform: uppercase; letter-spacing: .05em; font-size: 8.6pt; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<!-- ───────────── PAGE 1 ───────────── -->
+<section class="page">
+  <aside class="side">
+    <img class="photo" src="../public/assets/img/portrait.webp" alt="Asiful Haque Ratul">
+
+    <h2>Contact</h2>
+    <div class="blk contact">
+      <p><b>Email</b><a href="mailto:aratul@uark.edu">aratul@uark.edu</a></p>
+      <p><b>Portfolio</b><a href="https://sites.google.com/view/asif92">sites.google.com/view/asif92</a></p>
+      <p><b>Location</b>Texas, USA</p>
+    </div>
+
+    <h2>Technical Skills</h2>
+    <div class="blk">
+      <h3>ERP &amp; Enterprise Systems</h3>
+      <p>Acumatica, SAP S/4HANA (FI, MM, SD), Oracle Flexcube, Velixo, PowerCARD, UAT &amp; upgrade management</p>
+      <h3>Business Intelligence</h3>
+      <p>Power BI, Tableau, SAS Viya, Nectari, row-level security, KPI scorecards</p>
+      <h3>Machine Learning</h3>
+      <p>Python, scikit-learn, regression &amp; classification, PCA, SVM, forecasting, AWS SageMaker, MLflow, TensorFlow, PyTorch</p>
+      <h3>Data &amp; Databases</h3>
+      <p>SQL Server / T-SQL, window functions, stored procedures, SQL Agent, Teradata, ETL (Spark, Talend), pandas, NumPy</p>
+      <h3>Statistics</h3>
+      <p>Hypothesis testing, t-test, chi-square, ANOVA, OLS regression, Stata, R, SAS EG, SAS EM, KNIME</p>
+      <h3>Delivery</h3>
+      <p>Agile &amp; Scrum, Azure DevOps, Jira, Smartsheet, Clarity, requirements &amp; BRDs, Six Sigma</p>
+      <h3>Banking, Risk &amp; Compliance</h3>
+      <p>Card portfolio management, AML/CFT, card-scheme governance (Visa, Mastercard, DCI, UnionPay), Basel II &amp; III, regulatory reporting</p>
+    </div>
+
+  </aside>
+
+  <main class="main">
+    <header>
+      <h1>Asiful Haque Ratul</h1>
+      <p class="links">Solution Consultant &nbsp;|&nbsp; ERP, Business Intelligence &amp; Machine Learning</p>
+    </header>
+
+    <h2>Profile</h2>
+    <p class="item">Five years running a 150,000-card credit portfolio at Eastern Bank, an MS in Information Systems from the University of Arkansas, then two years at 3Value upgrading ERP platforms, building BI and shipping predictive models for enterprise clients.</p>
+
+    <h2>Experience</h2>
+    <div class="item">
+      <div class="row"><h3>Solution Consultant, 3Value Inc.</h3><span class="when">Jul 2024 – Apr 2026</span></div>
+      <p class="sub">ASWi Inc. · Texas, USA · Full-time</p>
+      <ul class="sq">
+        <li>Primary technical lead for 25+ enterprise accounts; 97% first-contact resolution, recurring tickets cut 40% with SQL diagnostics.</li>
+        <li>Redesigned client onboarding, taking time-to-value from 90 to 45 days.</li>
+        <li>Delivered 50+ upgrades at 99.5% on-time, including bi-annual Acumatica upgrades for 80 client instances.</li>
+        <li>Built an Acumatica + Velixo reporting engine covering 85% of standard reports, saving 30 hours a week.</li>
+        <li>Built Power BI KPI and scorecard dashboards, cutting ad-hoc report requests by 65%; 74 role-based BI interfaces for 11 clients.</li>
+        <li>Developed Python predictive models, including a 92%-accurate client-attrition model and inventory and demand forecasts.</li>
+        <li>Supported a credit card issuer (RAMP): 26 ML models, 17 live dashboards and 63 reports with Sales, Fraud Risk, Compliance and Marketing.</li>
+      </ul>
+    </div>
+    <div class="item">
+      <div class="row"><h3>Graduate Assistant, University of Arkansas</h3><span class="when">May 2023 – May 2024</span></div>
+      <p class="sub">Sam M. Walton College of Business · Part-time</p>
+      <ul class="sq">
+        <li>Managed and analysed research data for academic papers; supported teaching, grading and assessments.</li>
+        <li>Handled student communication, scheduling, records and events; built Excel and Power BI trackers.</li>
+      </ul>
+    </div>
+    <div class="item">
+      <div class="row"><h3>Manager, Eastern Bank PLC</h3><span class="when">Jan 2021 – May 2023</span></div>
+      <p class="sub">Cards division · Dhaka, Bangladesh · Full-time</p>
+      <ul class="sq">
+        <li>Managed a BDT 8 billion (about USD 75M) portfolio of 150,000 cards, growing receivables 18% year on year.</li>
+        <li>Ran analytics-based AML verification across 30+ million credit card transactions.</li>
+        <li>Single point of contact for Visa, Mastercard, DCI and UnionPay reporting, chargebacks and campaigns.</li>
+        <li>Led automation and process re-engineering: regulatory reporting, vendor billing and EMI processing.</li>
+        <li>Trained internal teams and merchants on compliance and merchant operations.</li>
+      </ul>
+    </div>
+  </main>
+</section>
+
+<!-- ───────────── PAGE 2 ───────────── -->
+<section class="page">
+  <aside class="side">
+    <h2 style="margin-top:8mm">Education</h2>
+    <div class="blk">
+      <h3>MS, Information Systems (STEM)</h3>
+      <p class="role">University of Arkansas, Sam M. Walton College of Business</p>
+      <p>May 2023 – May 2024 · Business Analytics &amp; ERP</p>
+
+      <h3 style="margin-top:4mm">Masters in Bank Management</h3>
+      <p class="role">Bangladesh Institute of Bank Management (University of Dhaka program)</p>
+      <p>2015 – 2017</p>
+
+      <h3 style="margin-top:4mm">BBA, Management Studies</h3>
+      <p class="role">Jagannath University, Faculty of Business Studies</p>
+      <p>2010 – 2013</p>
+    </div>
+
+    <h2>Coursework</h2>
+    <div class="blk">
+      <ul>
+        <li>Machine learning: supervised and unsupervised, deep learning, recommendation systems</li>
+        <li>SAP S/4HANA FI, MM, SD, CO; Oracle Flexcube</li>
+        <li>SQL Server, Teradata, ETL, warehouse modelling</li>
+        <li>Power BI, Tableau, SAS EG, SAS EM, SAS Viya</li>
+        <li>Commercial and central banking, Basel II &amp; III, treasury, trade finance</li>
+      </ul>
+    </div>
+    <h2>Certifications</h2>
+    <div class="blk">
+      <ul>
+        <li>Google Advanced Data Analytics</li>
+        <li>Google Business Intelligence</li>
+        <li>Google Project Management (2024)</li>
+        <li>IBM Product Manager (2024)</li>
+        <li>IBM Project Manager (2024)</li>
+        <li>IBM AI Enterprise Workflow</li>
+        <li>IBM IT Scrum Master</li>
+        <li>PMI Scrum: Advanced</li>
+        <li>Career Essentials in Project Management, Microsoft &amp; LinkedIn (2024)</li>
+      </ul>
+    </div>
+  </aside>
+
+  <main class="main">
+    <h2 style="margin-top:6mm">Experience (continued)</h2>
+    <div class="item">
+      <div class="row"><h3>Associate Manager, Eastern Bank PLC</h3><span class="when">Jul 2018 – Dec 2020</span></div>
+      <p class="sub">Future Leader Program · Full-time</p>
+      <ul class="sq">
+        <li>Managed a credit card EMI portfolio of about BDT 1 billion with 16% year-on-year growth.</li>
+        <li>Ran market and competitor analysis to guide acquisition strategy and campaigns.</li>
+        <li>Managed reporting and relationships with Visa, Mastercard, DCI and UnionPay.</li>
+      </ul>
+    </div>
+    <div class="item">
+      <div class="row"><h3>Research Assistant, Bangladesh Institute of Bank Management</h3><span class="when">Jun 2015 – Dec 2017</span></div>
+      <p class="sub">Dhaka, Bangladesh · Part-time</p>
+      <ul class="sq">
+        <li>Managed a 10,000-respondent survey across phone, in-person, panel and focus-group modes.</li>
+        <li>Built a bank-level panel dataset from 40+ banks; ran panel regressions in Stata and R.</li>
+      </ul>
+    </div>
+
+    <h2>Selected Projects</h2>
+    <p class="group">Professional</p>
+    <div class="item">
+      <div class="row"><h3>Acumatica ERP Upgrade Program</h3><span class="when">2024 – 2026</span></div>
+      <p class="sum">Bi-annual upgrades for 80 client instances (23R2 to 25R1): sandboxes, snapshot transfers, UAT, rollback plans and post-go-live monitoring.</p>
+    </div>
+    <div class="item">
+      <div class="row"><h3>Predictive Shop-Floor Optimisation</h3><span class="when">2024 – 2026</span></div>
+      <p class="sum">Models for 7 manufacturers on GCP, AWS and on-premise; IoT/MES pre-processing, MLOps pipelines and supervisor dashboards.</p>
+    </div>
+    <div class="item">
+      <div class="row"><h3>AML Controls for Foreign-Currency Card Spend</h3><span class="when">2022</span></div>
+      <p class="sum">System-level restrictions using Merchant Category Codes and other parameters at Eastern Bank.</p>
+    </div>
+    <div class="item">
+      <div class="row"><h3>Oracle Flexcube Upgrade · Report &amp; Billing Automation</h3><span class="when">2019 – 2023</span></div>
+      <p class="sum">Cards-department requirements and UAT for the core upgrade; 7 regulatory and scheme reports automated; vendor billing and EMI processes rebuilt.</p>
+    </div>
+    <p class="group">MS coursework</p>
+    <div class="item">
+      <div class="row"><h3>SAP S/4HANA: FI, MM &amp; SD Configuration</h3></div>
+      <p class="sum">Company configured from scratch and tested through procure-to-pay and order-to-cash, including returns.</p>
+    </div>
+    <div class="item">
+      <div class="row"><h3>SQL Server Market-Intelligence Engine</h3></div>
+      <p class="sum">CTEs, 25 window functions and a scheduled stored procedure feeding a live Tableau view.</p>
+    </div>
+    <div class="item">
+      <div class="row"><h3>Machine Learning: Regression, Classification, PCA + SVM</h3></div>
+      <p class="sum">Fuel-economy regression (R² 84%), diabetes classifier (77% accuracy), vehicle silhouettes (95% weighted precision).</p>
+    </div>
+  </main>
+</section>
+
+</body>
+</html>
