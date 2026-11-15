@@ -78,7 +78,7 @@ export const about = {
     'Five years in a bankâ€™s cards division taught me where reports break: scheme files, regulator returns, AML checks and month-end. The MS in Information Systems and two years of consulting gave me the tools to fix that at scale, from SQL and Acumatica to Power BI and Python.',
   ],
   // Background removed (cutout with transparency); styled like the hero photo via .about-portrait.cutout.
-  portrait: { src: '/assets/img/portrait-about-cut.webp', small: ['/assets/img/portrait-about-cut-520.webp', 520], w: 900, h: 2282, cutout: true, alt: 'Asiful Haque Ratul in a three-piece suit and sunglasses, holding his University of Arkansas, USA diploma on campus' },
+  portrait: { src: '/assets/img/portrait-about-cut.webp', small: ['/assets/img/portrait-about-cut-520.webp', 520], w: 900, h: 1866, cutout: true, alt: 'Asiful Haque Ratul in a graduation gown and sunglasses, smiling and holding his University of Arkansas, USA diploma' },
   facts: [
     ['Based in', 'Dhaka, Bangladesh'],
     ['Studied', 'MS Information Systems, University of Arkansas, USA'],
